@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --Cyan: hsl(179, 62%, 43%);
+  --celeste: rgb(74, 190, 189);
+  --verdoso: hsl(71, 88%, 42%);
+  --blanco: hsl(204, 43%, 93%);
+  --azul-claro: hsl(218, 22%, 67%);
+}
+body {
+  background-color: var(--azul-claro);
+  font-family: "Karla", sans-serif;
+}
+.app {
+  margin: 65px 25px;
+}
+.container {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.container-title {
+  background-color: var(--blanco);
+  padding: 20px;
+  letter-spacing: 0.5px;
+}
+.container-title-h1 {
+  margin-top: 10px;
+  color: var(--Cyan);
+  font-size: 20px;
+}
+.container-title-h2 {
+  color: var(--verdoso);
+  font-size: 15px;
+  margin-top: 20px;
+}
+.container-title-parrafo {
+  color: var(--azul-claro);
+  font-size: 13px;
+  margin-top: 10px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.container-subscription {
+  background-color: var(--Cyan);
+  padding: 20px;
+  letter-spacing: 0.2px;
+}
+.container-subscription-h3 {
+  color: var(--blanco);
+  margin-top: 10px;
+}
+.container-subscription-p {
+  color: var(--blanco);
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-top: 10px;
+}
+.container-subscription-span {
+  color: var(--blanco);
+  opacity: 0.6;
+  font-size: 16px;
+}
+.container-subscription-p2 {
+  color: var(--blanco);
+}
+.container-subscription-input {
+  background-color: var(--verdoso);
+  border-radius: 5px;
+  border-style: none;
+  color: var(--blanco);
+  font-size: 15px;
+  width: 280px;
+  height: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.container-why {
+  background-color: var(--celeste);
+  padding: 20px;
+}
+.container-why-h3 {
+  color: var(--blanco);
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.container-why-p {
+  color: var(--blanco);
+  line-height: 25px;
+  font-size: 13px;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-subscription,
+  .container-why {
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+  }
+  .container {
+    box-sizing: border-box;
+    max-width: 768px;
+  }
+  .container-subscription {
+    height: ;
+  }
+
+  .container-Sw {
+    display: flex;
+  }
+}
